@@ -1,8 +1,8 @@
 const hre = require("hardhat");
 
 async function main() {
-  const nft = "0x";
-  const devAddress = "0x";
+  const nft = "0x6C7739C6bFf4f51174484a7fe74Ad04B7d14fd76";
+  const devAddress = "0xca027Fe02ff3aEa8dB89Aeb8aB2a5d08ceE3ddb8";
   const isMint = false;
 
   const MintV1 = await hre.ethers.getContractFactory("MintV1");
